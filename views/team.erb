@@ -7,10 +7,12 @@
  <body>
 
    <h1>Team Name: <%=params[:teamname]%></h1>
-   <% params.each do |k,v| %>
-   <h2><%= "Team Name: #{v}" %></h2>
-   <h2><%= "Team: #{v}" %></h2>
-   <%end%>
+   <h2>Coach: <%= params[:coach]%></h2>
+  <h2>Pont Guard: <%= %></h2>
+  <h2>Shooting Guard: <%= %></h2>
+  <h2>Small Forward: <%= %></h2>
+  <h2>Poer Forward: <%= %></h2>
+  <h2>Center: <%= %></h2>
 
  </body>
 </html>
